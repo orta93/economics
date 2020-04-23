@@ -1,0 +1,24 @@
+{
+    "name": "orta93/economics",
+    "description": "Package for basic economics operations.",
+    "keywords": ["economics", "engineering", "math"],
+    "license": "AFL-3.0",
+    "authors": [
+        {
+            "name": "Jonathan Orta",
+            "email": "emanuelorta93@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orta\\Economics\\": "src/"
+        }
+    }
+}
