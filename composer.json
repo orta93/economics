@@ -2,14 +2,14 @@
     "name": "orta93/economics",
     "description": "Package for basic economics operations.",
     "keywords": ["economics", "engineering", "math"],
-    "license": "AFL-3.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jonathan Orta",
             "email": "emanuelorta93@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
 		"php": ">=7.1"
     },
