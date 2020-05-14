@@ -2,12 +2,19 @@
 
 use Exception;
 
+/**
+ *  Economics Class
+ *
+ *  Generate present/future values for economic operations
+ *
+ *  @author Jonathan Orta | orta93
+ */
 class Economics {
 
-    protected $present;
-    protected $future;
-    protected $interest;
-    protected $periods;
+    public $present;
+    public $future;
+    public $interest;
+    public $periods;
 
     public function __construct($present = 0, $interest = 0, $periods = 0, $future = 0)
     {
